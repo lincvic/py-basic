@@ -1,5 +1,3 @@
-
-
 def if_example(foo: int):
     if foo > 10:
         print("Foo is greater than 10")
@@ -11,5 +9,13 @@ def if_example(foo: int):
         print("Foo is between 0 to 10")
 
 
+def if_example_2(text: str) -> bool:
+
+    # return True if text in 'abc' else False
+    if text in 'abc':
+        return True
+    return False
+
+
 if __name__ == '__main__':
-    if_example(1)
+    print(if_example_2("a"))

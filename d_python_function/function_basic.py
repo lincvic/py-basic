@@ -24,5 +24,9 @@ def unlimited_param(**kwargs):
     print("The name is {}, and the age is {}".format(kwargs["name"], kwargs["age"]))
 
 
+# 返回值
+def function_return_example(num_a: int, num_b: int) -> int:
+    return num_a+num_b
+
 if __name__ == '__main__':
-    unlimited_param_tuple("Layne", 1, 2, 3, 4, 5, 6)
+    function_return_example("3", "3")
